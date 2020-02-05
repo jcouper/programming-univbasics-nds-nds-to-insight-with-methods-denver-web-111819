@@ -22,6 +22,12 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
+  dir_counter = 0 
+  results = {}
   
+  while nds.length > dir_counter do 
+    results[nds][counter][name] = gross_for_director(nds[counter])
   
+  end
+  results
 end
